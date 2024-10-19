@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+</head>
+<body>
+    {% for elem in mainmenu %}
+        <a  href="{% url elem.name_url %}">{{ elem.name }}</a>
+    {% endfor %}
+    {% block content %}{% endblock %}
+</body>
+</html>
+

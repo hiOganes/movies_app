@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load custom_filters %}
+{% load static %}
+
+{% block css%}{% endblock %}
+{% block title %}Movies app{% endblock %}
+{% block content %}
+
+<form action="" method="get"> 
+    <input type="text" id="search" name="search" placeholder="Type to search..."> 
+    <button type="submit">Search</button> 
+</form> 
+    
+{% for movie in movies %}
+    <ul>
+        <li><img src="{{ movie.poster.url }}" width="130" height="150"></li>
+        <li>{{ movie.title }}</li>
+        <li>{{ movie.rating }}</li>
+        <li>{{ movie.release_date }}</li>
+        <li>{{ movie.description|cut_description:"80" }}</li>
+        {{ form.as_ul }}
+    </ul>
+{% endfor %}
+
+{% include "includes/pagination.html" with page=movies %}
+
+{% endblock %}
