@@ -4,10 +4,4 @@
 
 {% block content %}
 <h3> Рэйтинги </h3>
-    {% for movie in movies %}
-        <ul>
-            <li><img src="{{ movie.poster.url }}" width="130" height="150"><h3>Фильм: {{ movie.title }}</h3></li>
-            рейтинг: {{ movie.rating }}
-        </ul>
-    {% endfor %}
 {% endblock %}

@@ -2,7 +2,6 @@ from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator
 
 from .models import MoviesModel
-from .forms import RatingForm
 
 
 def list_movie(request):
@@ -14,11 +13,10 @@ def list_movie(request):
     paginator = Paginator(movies, 6)
     num_page = request.GET.get('page', 1)
     page_obj = paginator.page(num_page)
-    form = RatingForm()
     return render(
         request, 
         'movies/search.html', 
-        {'movies': page_obj, 'form': form}
+        {'movies': page_obj,}
         )
 
 
