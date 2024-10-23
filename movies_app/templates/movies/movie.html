@@ -3,6 +3,11 @@
 {% block title %}{{ movie.title }}{% endblock %}
 
 {% block content %}
-    <img src="{{ movie.poster.url }}" width="130" height="150"><h3>{{ movie.title }}</h3>
-    <p>{{ movie.description }}</p>
+    <ul>
+        <img src="{{ movie.poster.url }}" width="130" height="150"></li>
+        <li>{{ movie.title }}</li>
+        <li>{{ movie.description }}</li>
+        <li>{{ movie.release_date }}</li>
+        <li>{{ movie.rating }}</li>
+    </ul>
 {% endblock %}

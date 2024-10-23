@@ -8,7 +8,7 @@ class MoviesModel(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
     release_date = models.DateField()
-    rating = models.FloatField()
+    rating = models.FloatField(blank=True, default=0.0)
     create_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
     poster = models.ImageField(
@@ -17,7 +17,6 @@ class MoviesModel(models.Model):
         default='poster/Out_Of_Poster.jpg'
         )
     slug = models.SlugField(max_length=255, unique=True)
-    rating = models.ManyToManyField(User)
 
 
     objects = models.Manager()

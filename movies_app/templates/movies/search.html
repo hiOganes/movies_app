@@ -12,12 +12,13 @@
 </form> 
     
 {% for movie in movies %}
-    <ul>
+    <a href="{{ movie.get_absolute_url }}"><ul>
         <li><img src="{{ movie.poster.url }}" width="130" height="150"></li>
+        <li>{{ movie.rating }}</li>
         <li>{{ movie.title }}</li>
         <li>{{ movie.release_date }}</li>
         <li>{{ movie.description|cut_description:"80" }}</li>
-    </ul>
+    </ul></a>
 {% endfor %}
 
 {% include "includes/pagination.html" with page=movies %}
