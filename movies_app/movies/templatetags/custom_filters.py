@@ -11,5 +11,5 @@ def cut_description(value, arg):
             arg -= 1
         if arg <= 0:
           return 'Incorrect description!'
-        return value[:arg]
+        return value[:arg] + '...'
     return value
