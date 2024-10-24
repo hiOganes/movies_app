@@ -25,7 +25,7 @@ class MoviesModel(models.Model):
 
     class Meta:
         ordering = ['-release_date']
-        # indexes = [models.Index(fields=['title'])]
+        indexes = [models.Index(fields=['title'])]
 
 
     def __str__(self):

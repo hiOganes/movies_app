@@ -1,0 +1,338 @@
+[
+{
+  "model": "movies.moviesmodel",
+  "pk": 1,
+  "fields": {
+    "title": "title1",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:19:03.552Z",
+    "update_date": "2024-10-23T15:19:03.552Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title1"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 2,
+  "fields": {
+    "title": "title2",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title2"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 3,
+  "fields": {
+    "title": "title3",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title3"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 4,
+  "fields": {
+    "title": "title4",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title4"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 5,
+  "fields": {
+    "title": "title5",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title5"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 6,
+  "fields": {
+    "title": "title6",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title6"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 7,
+  "fields": {
+    "title": "title7",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title7"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 8,
+  "fields": {
+    "title": "title8",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title8"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 9,
+  "fields": {
+    "title": "title9",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title9"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 10,
+  "fields": {
+    "title": "title10",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title10"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 11,
+  "fields": {
+    "title": "title11",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title11"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 12,
+  "fields": {
+    "title": "title12",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title12"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 13,
+  "fields": {
+    "title": "title13",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title13"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 14,
+  "fields": {
+    "title": "title14",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title14"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 15,
+  "fields": {
+    "title": "title15",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title15"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 16,
+  "fields": {
+    "title": "title16",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title16"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 17,
+  "fields": {
+    "title": "title17",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title17"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 18,
+  "fields": {
+    "title": "title18",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title18"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 19,
+  "fields": {
+    "title": "title19",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title19"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 20,
+  "fields": {
+    "title": "title20",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title20"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 21,
+  "fields": {
+    "title": "title21",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title21"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 22,
+  "fields": {
+    "title": "title22",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title22"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 23,
+  "fields": {
+    "title": "title23",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title23"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 24,
+  "fields": {
+    "title": "title24",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title24"
+  }
+}
+]
