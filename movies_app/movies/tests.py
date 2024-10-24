@@ -32,7 +32,10 @@ class FindMovie(TestCase):
         for elem in test_data:
             response = self.client.get(path + '?search=' + elem)
             data_db = MoviesModel.objects.filter(title__istartswith=elem)
-            self.assertQuerySetEqual(response.context['movies'].object_list, data_db[(response.context['movies'].number-1)*6:6])
+            self.assertQuerySetEqual(
+                response.context['movies'].object_list, 
+                data_db[(response.context['movies'].number-1)*6:6]
+                )
 
     def tearDown(self):
         pass
