@@ -25,7 +25,15 @@ class FindMovie(TestCase):
         self.assertEqual(response.status_code, HTTPStatus.OK)
 
     def test_search_bar(self):
-        pass
+        'Checking the search field'
+        path = reverse('search')
+        test_data = ['title', 'title1', 'title11', 'non-existent_value']
+
+        for elem in test_data:
+            response = self.client.get(path + '?search=' + elem)
+            data_db = MoviesModel.objects.filter(title__istartswith=elem)
+            self.assertQuerySetEqual(response.context['movies'].object_list, data_db[(response.context['movies'].number-1)*6:6])
+            print('po:', response.context['movies'])
 
     def tearDown(self):
         pass

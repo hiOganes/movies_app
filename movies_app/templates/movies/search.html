@@ -18,15 +18,15 @@
             <li>{{ movie.rating }}</li>
             <li>{{ movie.title }}</li>
             <li>{{ movie.release_date }}</li>
-            <ul class="hr"> 
+            <li class="hr"> 
                 {% for elem in movie.tags.all %}
                     {% if forloop.last %}
-                        <li>{{ elem.name }}</li>
+                        {{ elem.name }}
                 {% else %}
-                        <li>{{ elem.name }}</li>
+                        {{ elem.name }}
                     {% endif %}
             {% endfor %}
-            </ul>
+            </li>
             <li>{{ movie.description|cut_description:"80" }}</li>
         </ul></a>
     {% endfor %}

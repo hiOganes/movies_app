@@ -7,15 +7,15 @@
         <img src="{{ movie.poster.url }}" width="130" height="150"></li>
         <li>Title: {{ movie.title }}</li>
         <li>Description: {{ movie.description }}</li>
-        <ul class="hr">Category: 
+        <li class="hr">Category: 
             {% for elem in movie.tags.all %}
                 {% if forloop.last %}
-                    <li>{{ elem.name }}</li>
+                    {{ elem.name }}
                 {% else %}
-                    <li>{{ elem.name }}</li>
+                    {{ elem.name }}
                 {% endif %}
             {% endfor %}
-        </ul>
+        </li>
         <li>Release date: {{ movie.release_date }}</li>
         <li>Rating: {{ movie.rating }}</li>
     </ul>
