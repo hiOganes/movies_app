@@ -1,3 +1,12 @@
 from django.test import TestCase
 
-# Create your tests here.
+
+class FindMovie(TestCase):
+    def setUp(self):
+        pass
+    
+    def test_case_1(self):
+        pass
+
+    def tearDown(self):
+        pass

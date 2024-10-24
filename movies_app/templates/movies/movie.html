@@ -5,18 +5,18 @@
 {% block content %}
     <ul>
         <img src="{{ movie.poster.url }}" width="130" height="150"></li>
-        <li>Название: {{ movie.title }}</li>
-        <li>Описание: {{ movie.description }}</li>
-        <li>Жанр: 
+        <li>Title: {{ movie.title }}</li>
+        <li>Description: {{ movie.description }}</li>
+        <ul class="hr">Category: 
             {% for elem in movie.tags.all %}
                 {% if forloop.last %}
-                    {{ elem.name }}
+                    <li>{{ elem.name }}</li>
                 {% else %}
-                    {{ elem.name }},
+                    <li>{{ elem.name }}</li>
                 {% endif %}
             {% endfor %}
-        </li>
-        <li>Дата выхода: {{ movie.release_date }}</li>
-        <li>Рэйтинг: {{ movie.rating }}</li>
+        </ul>
+        <li>Release date: {{ movie.release_date }}</li>
+        <li>Rating: {{ movie.rating }}</li>
     </ul>
 {% endblock %}

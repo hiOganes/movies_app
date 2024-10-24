@@ -10,16 +10,29 @@
     <input type="text" id="search" name="search" placeholder="Type to search..."> 
     <button type="submit">Search</button> 
 </form> 
-    
-{% for movie in movies %}
-    <a href="{{ movie.get_absolute_url }}"><ul>
-        <li><img src="{{ movie.poster.url }}" width="130" height="150"></li>
-        <li>{{ movie.rating }}</li>
-        <li>{{ movie.title }}</li>
-        <li>{{ movie.release_date }}</li>
-        <li>{{ movie.description|cut_description:"80" }}</li>
-    </ul></a>
-{% endfor %}
+
+{% if movies %}
+    {% for movie in movies %}
+        <a href="{{ movie.get_absolute_url }}"><ul>
+            <li><img src="{{ movie.poster.url }}" width="130" height="150"></li>
+            <li>{{ movie.rating }}</li>
+            <li>{{ movie.title }}</li>
+            <li>{{ movie.release_date }}</li>
+            <ul class="hr"> 
+                {% for elem in movie.tags.all %}
+                    {% if forloop.last %}
+                        <li>{{ elem.name }}</li>
+                {% else %}
+                        <li>{{ elem.name }}</li>
+                    {% endif %}
+            {% endfor %}
+            </ul>
+            <li>{{ movie.description|cut_description:"80" }}</li>
+        </ul></a>
+    {% endfor %}
+{% else %}
+    <h3>Movies not found</h3>
+{% endif %}
 
 {% include "includes/pagination.html" with page=movies %}
 

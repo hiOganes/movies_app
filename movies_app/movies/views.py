@@ -5,11 +5,9 @@ from .models import MoviesModel
 
 
 def list_movie(request):
-    value = request.GET.get('search', '')
-    if value:
-        movies = MoviesModel.objects.filter(title__istartswith=value)
-    else:
-        movies = MoviesModel.objects.all()
+    movies = MoviesModel.objects.filter(
+        title__istartswith=request.GET.get('search', '')
+        )
     paginator = Paginator(movies, 6)
     num_page = request.GET.get('page', 1)
     page_obj = paginator.page(num_page)
