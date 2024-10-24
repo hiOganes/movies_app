@@ -1,0 +1,1009 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add movies model",
+    "content_type": 7,
+    "codename": "add_moviesmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change movies model",
+    "content_type": 7,
+    "codename": "change_moviesmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete movies model",
+    "content_type": 7,
+    "codename": "delete_moviesmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view movies model",
+    "content_type": 7,
+    "codename": "view_moviesmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 8,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 8,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 8,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 8,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 9,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 9,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 9,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 9,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movies",
+    "model": "moviesmodel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 1,
+  "fields": {
+    "title": "title1",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:19:03.552Z",
+    "update_date": "2024-10-23T15:19:03.552Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title1"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 2,
+  "fields": {
+    "title": "title2",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title2"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 3,
+  "fields": {
+    "title": "title3",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title3"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 4,
+  "fields": {
+    "title": "title4",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title4"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 5,
+  "fields": {
+    "title": "title5",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title5"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 6,
+  "fields": {
+    "title": "title6",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title6"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 7,
+  "fields": {
+    "title": "title7",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title7"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 8,
+  "fields": {
+    "title": "title8",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title8"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 9,
+  "fields": {
+    "title": "title9",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title9"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 10,
+  "fields": {
+    "title": "title10",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title10"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 11,
+  "fields": {
+    "title": "title11",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title11"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 12,
+  "fields": {
+    "title": "title12",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title12"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 13,
+  "fields": {
+    "title": "title13",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title13"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 14,
+  "fields": {
+    "title": "title14",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title14"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 15,
+  "fields": {
+    "title": "title15",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title15"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 16,
+  "fields": {
+    "title": "title16",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title16"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 17,
+  "fields": {
+    "title": "title17",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title17"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 18,
+  "fields": {
+    "title": "title18",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title18"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 19,
+  "fields": {
+    "title": "title19",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title19"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 20,
+  "fields": {
+    "title": "title20",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title20"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 21,
+  "fields": {
+    "title": "title21",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title21"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 22,
+  "fields": {
+    "title": "title22",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title22"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 23,
+  "fields": {
+    "title": "title23",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title23"
+  }
+},
+{
+  "model": "movies.moviesmodel",
+  "pk": 24,
+  "fields": {
+    "title": "title24",
+    "description": "Description, description description description. Description, description description description.",
+    "release_date": "2001-01-01",
+    "rating": 0.0,
+    "create_date": "2024-10-23T15:24:20.761Z",
+    "update_date": "2024-10-23T15:24:20.761Z",
+    "poster": "poster/Out_Of_Poster.jpg",
+    "slug": "title24"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Action",
+    "slug": "action"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Adventure",
+    "slug": "adventure"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Comedy",
+    "slug": "comedy"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Fantasy",
+    "slug": "fantasy"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Historical",
+    "slug": "historical"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Horror",
+    "slug": "horror"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Romance",
+    "slug": "romance"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Anime",
+    "slug": "anime"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Biographical",
+    "slug": "biographical"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Western",
+    "slug": "western"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Detective",
+    "slug": "detective"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "Documentary",
+    "slug": "documentary"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "Drama",
+    "slug": "drama"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 14,
+  "fields": {
+    "name": "Comic book",
+    "slug": "comic book"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 15,
+  "fields": {
+    "name": "Concert",
+    "slug": "concert"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 16,
+  "fields": {
+    "name": "Short",
+    "slug": "short"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 17,
+  "fields": {
+    "name": "Crime",
+    "slug": "crime"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 18,
+  "fields": {
+    "name": "Melodrama",
+    "slug": "melodrama"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 19,
+  "fields": {
+    "name": "Mysticism",
+    "slug": "mysticism"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 20,
+  "fields": {
+    "name": "music",
+    "slug": "Music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 21,
+  "fields": {
+    "name": "cartoon",
+    "slug": ""
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 22,
+  "fields": {
+    "name": "Musical",
+    "slug": "musical"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 23,
+  "fields": {
+    "name": "Scientific",
+    "slug": "scientific"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 24,
+  "fields": {
+    "name": "Noir",
+    "slug": "noir"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 25,
+  "fields": {
+    "name": "Reality show",
+    "slug": "reality"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 26,
+  "fields": {
+    "name": "Family",
+    "slug": "family"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 27,
+  "fields": {
+    "name": "sports",
+    "slug": "Sports"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 28,
+  "fields": {
+    "name": "Talk show",
+    "slug": "talk show"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 29,
+  "fields": {
+    "name": "Thriller",
+    "slug": "thriller"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 30,
+  "fields": {
+    "name": "Sci-fi",
+    "slug": "sci-fi"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 31,
+  "fields": {
+    "name": "Erotic",
+    "slug": "erotic"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 2
+  }
+}
+]
